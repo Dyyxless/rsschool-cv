@@ -23,19 +23,14 @@ I'm interested in learning and developing my developer skills.
 
 
 ``` 
-<style>
-.card-hello{
-  background-color: #FA7268;
-  color: #FFF;
-  height: 25px;
-  width: 230px;
-  font-size: 20px;
-  padding: 20px;
-  margin: 10px;
-  border: 2px solid #9C27B0;
-}
-</style>
-<div class="card-hello"</div>
+const num1 = 5;
+const num2 = 3;
+
+// add two numbers
+const sum = num1 + num2;
+
+// display the sum
+console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
 ``` 
 
 ## Experience
