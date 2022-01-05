@@ -31,17 +31,20 @@
 
   header {
     padding: 30px;
-    text-align: center;
-    background-color: #e48181;
+    text-align: left;
+    background-color: #9b826b;
   }
 
   header img {
+    display: block;
+    margin: 0 auto;
     margin-bottom: 10px;
     border: 10px solid var(--pink-color);
     border-radius: 50%;
   }
 
   header h1 {
+    text-align: center;
     margin-bottom: 10px;
     font-size: 2rem;
     font-weight: 700;
@@ -66,8 +69,8 @@
   }
 
   header :not(.contacts) ul {
-    list-style-type: disc;
-    margin-left: 50px;
+    /* list-style-type: disc; */
+    margin-left: 0px;
   }
 
   header .about-me h3 p {
@@ -131,7 +134,7 @@
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px;
     font-size: 0.8rem;
     color: #ffffff;
